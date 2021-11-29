@@ -203,7 +203,7 @@ export function startCollator(
 			args.push("--rpc-port=" + rpcPort);
 			console.log(`Added --rpc-port=" + ${rpcPort}`);
 		}
-		args.push("--collator");
+		// args.push("--collator");
 
 		if (basePath) {
 			args.push("--base-path=" + basePath);
